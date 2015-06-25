@@ -1,0 +1,30 @@
+.bv-root-category-badge {
+    border-radius: 50%;
+    background-color: #00b3aa;
+    width: 15px;
+    height: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    font-size: 10px;    
+}
+
+.bv-category-badge {
+    border-radius: 50%;
+    background-color: #00b3aa;
+    width: 15px;
+    height: 15px;
+    color: #ffffff;
+    float: left;
+    font-size: 10px;    
+    margin-left: -20px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.bv-badge-count {    
+    left: 5px;
+    top: -1px;
+    position: absolute;
+}

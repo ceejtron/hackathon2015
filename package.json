@@ -1,0 +1,37 @@
+{
+  "name": "post-interaction-notifications",
+  "version": "1.0.0",
+  "description": "Display notifications about reviewing purchased products on client web sites",
+  "main": "app/index.js",
+  "author": "Christian Johannessen <c.johannessen@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "webpack",
+    "start": "./server.js",
+    "test": "mocha",
+    "preview": "npm run build && npm start"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "css-loader": "^0.15.1",
+    "eslint": "^0.23.0",
+    "express": "^4.13.0",
+    "ghooks": "^0.3.2",
+    "handlebars": "^3.0.3",
+    "handlebars-loader": "^1.0.2",
+    "jquery": "^2.1.4",
+    "lodash": "^3.9.3",
+    "node-libs-browser": "^0.5.2",
+    "serve-static": "^1.10.0",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.11"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}

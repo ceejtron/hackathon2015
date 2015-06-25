@@ -1,0 +1,33 @@
+#universalCart li.item span.bv-star,
+.bv-inline-rating-module span.bv-star {
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-size: 35px 35px;
+    background-image: url('https://localhost/images/starfull.png');
+    background-repeat: no-repeat;    
+}
+
+#universalCart li.item span.bv-star.bv-starempty,
+.bv-inline-rating-module span.bv-star.bv-starempty {
+    margin-top: -2px;
+    background-image: url('https://localhost/images/starempty.png');
+}
+
+.bv-buttons {
+    float : left;
+    margin-top: 10px;
+}
+
+#universalCart .bv-buttons .common-button {
+    position: absolute;
+    right: 145px;
+    margin-top: 30px;
+}
+
+.bv-cleanslate .bv-core-container-83 .bv-mbox-content-container .bv-submission .bv-fieldsets .bv-fieldset.bv-fieldset-isrecommended,
+.bv-cleanslate .bv-core-container-83 .bv-mbox-content-container .bv-submission .bv-fieldsets .bv-fieldset.bv-radio-field,
+.bv-cleanslate .bv-core-container-83 .bv-mbox-content-container .bv-submission .bv-fieldsets .bv-fieldset.bv-fieldset-small,
+.bv-cleanslate .bv-core-container-83 .bv-mbox-content-container .bv-submission .bv-fieldsets .bv-fieldset.bv-email-field { 
+    display: none !important
+}

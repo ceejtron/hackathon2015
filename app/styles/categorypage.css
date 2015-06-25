@@ -1,0 +1,81 @@
+.bv-recommended-review,
+.bv-recommended-apo {
+    border : 5px solid #00b3aa;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.bv-recommended-apo .price {
+    display: none;
+}
+
+.bv-recommended-review .item_wrap,
+.bv-recommended-apo .item_wrap {
+    border-top: none;
+}
+
+.bv-recommended-review .loves,
+.bv-recommended-apo .loves,
+.bv-recommended-review .swatchList,
+.bv-recommended-apo .swatchList,
+.bv-recommended-review .bvReviewLink,
+.bv-recommended-apo .bvReviewLink,
+.bv-recommended-review .quicklookButton,
+.bv-recommended-apo .quicklookButton {
+    display: none !important;
+}
+
+.bv-recommended-review .bv-inline-rating-module {
+    margin-left: 55px;
+}
+
+.bv-recommended-apo .bv-inline-rating-module {
+    position: absolute;
+    bottom: 20px;
+}
+
+.bv-inline-rating-module .bv-submit-button {
+    position: absolute;
+    bottom: 15px;
+    left: 82px;    
+}
+
+.bv-inline-rating-module .bv-submit-answer-button {
+    margin-left: 75px;
+}
+
+.bv-tellus-img {
+    position: absolute;
+    width: 260px;
+    margin: 10px;
+}
+
+.bv-question-img {
+    position: absolute;
+    width: 275px;
+    margin: 5px 10px 10px 2px;
+}
+
+.bv-recommended-review .mostloved,
+.bv-recommended-apo .mostloved {
+    display: none;
+}
+
+.bv-recommended-apo .name {
+    display: none;
+}
+
+.bv-question {
+    font-size: 18px;
+    margin: 0;
+    line-height: 16px;
+    font-family: 'Trade Gothic Bold 20','TradeGothic-CondEighteen', 'Trade Gothic Cond Eighteen', 'Trade Gothic Condensed Eighteen', 'Trade Gothic', 'TradeGothic', 'Trade-Gothic', 'ArialNarrow', 'Arial-Narrow', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bv-question-field {
+    width: 80%;
+    margin: 10px auto 0;
+}

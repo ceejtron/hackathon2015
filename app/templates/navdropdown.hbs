@@ -1,0 +1,50 @@
+<div id="widget-ucart" class="review-nav-dropdown" style="top: 41px; display: block;">
+    <div id="universalCart" class="container">
+        <div class="top">
+            <a href="javaScript:hideBasket();void(0)" class="close" title="Close"></a>
+            <p class="count">2 Item(s) to Rate & Review</p>                
+        </div>
+        
+        <div class="middle">
+            <div id="cartScroll" class="jspScrollable" tabindex="0" style="overflow: hidden; padding: 0px; width: 425px;">                
+                <div class="jspContainer" style="width: 425px; height: 330px;">
+                    <div class="jspPane" style="padding: 0px; width: 401px; top: 0px;">
+                        <ul id="cart">
+                            {{#each products}}
+                            <li class="item sixteen columns">
+                                <div class="five columns">							
+                                    <a title="{{productName}}" href="{{productPage}}"><img src="{{productImage}}" alt="{{productName}}" title="{{productName}}">
+                                    </a>
+                                </div>
+            
+                                <ul class="eight columns">
+                                    <li class="name">
+                                        <a href="{{productPage}}">{{productName}}</a>
+                                    </li>
+                                    <li class="color"><span>Color:</span>&nbsp;{{color}}</li>
+                                    <li class="size"><span>Size:</span>&nbsp;{{size}}</li>
+                                    <li class="rating">
+                                        {{> stars .}}  
+                                    </li>
+                                    <li class="bv-buttons">
+                                        <a class="common-button fr bv-submit-button" href="javascript:void(0)" data-productid={{productId}}>Submit Rating</a>
+                                    </li>                                    
+                                </ul>
+                                <div class="two columns price">
+                                    <span></span>
+                                </div>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                    <div class="jspVerticalBar">
+                        <div class="jspCap jspCapTop"></div>
+                        <div class="jspCap jspCapBottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">                        
+        </div>
+    </div>
+</div>
